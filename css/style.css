@@ -80,7 +80,7 @@ body{
 
 /* styling the header  */
 header{
-    background: url(/images/bg-hero-desktop.svg) no-repeat ;
+    background: url(../images/bg-hero-desktop.svg) no-repeat ;
     background-size: cover;
     background-color: var(--Very-Pale-Cyan);
 }
@@ -246,7 +246,8 @@ footer .logo{
 .links a{
     font-weight: 400;
 }
-.links a:hover{
+.about-us a:hover,
+.career a:hover{
     border-bottom: 1px solid whitesmoke;
 }
 /* styling social media icons */
