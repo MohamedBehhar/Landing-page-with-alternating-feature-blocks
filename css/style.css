@@ -22,7 +22,7 @@
 }
 
 /* typographie */
-h1 , h2, h3{
+h1 , h2, h3, button{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: var(--Very-Dark-Cyan);
@@ -43,7 +43,7 @@ a{
 /* styling buttons */
 button{
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
     box-shadow: var(--box-shadow);
     padding: .5rem;
     cursor: pointer;
@@ -51,6 +51,7 @@ button{
 /* styling the get started button */
 .get-started{
     background-color: var(--Pink);
+    color: white;
     opacity: 1;
     transition: opacity 200ms ease-in-out;
     width: 200px;
@@ -59,9 +60,7 @@ button{
 .get-started:hover{
     opacity: .7;
 }
-.get-started a{
-    color: white;
-}
+
 
 /* styling the body */
 body{
@@ -102,12 +101,10 @@ nav .logo{
 nav button{
     background-color: white;
     width: 120px;
-}
-nav button a{
     color: var(--Very-Dark-Cyan);
     transition: color 200ms ease-in-out;
 }
-nav button a:hover{
+nav button:hover{
     color: var(--Grayish-Blue);
 }
 
